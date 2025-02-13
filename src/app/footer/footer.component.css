@@ -1,0 +1,9 @@
+
+.social-links{
+    display: flex;
+  }
+  
+    .social-links path {
+      fill: oklch(70.9% 0.015 304.04);
+    }
+  
