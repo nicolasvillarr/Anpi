@@ -9,18 +9,16 @@ import { FooterComponent } from './footer/footer.component';
   imports: [LoginUserComponent, NavBarComponent, FooterComponent],
   template:
   `
-  <main class="main">
-  <div>
-  <app-nav-bar></app-nav-bar>
-  @if (true == true) {
-    <Login-user></Login-user>
-  }
-  @else {
-    <div>Bienvenido</div>
-  }
- <app-footer></app-footer>
-  </div>
-</main>`
+<app-nav-bar></app-nav-bar>
+  <main>
+    <div>
+    @if (true == true) {
+      <Login-user></Login-user>
+    } @else { <div>Bienvenido</div> }
+    </div>
+  </main>
+<app-footer></app-footer>
+`
 })
 export class AppComponent {
   title = 'Anpi';

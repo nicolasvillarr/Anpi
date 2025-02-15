@@ -4,11 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-nav-bar',
   imports: [],
   template: `
-        <div class="cont-title">
-        <div class="logo"></div>
-        <h1>ANPI</h1>
-        <p>Bienvenido</p>
-      </div>`,
+<div class="cont-title">
+  <div class="logo"></div>
+  <h1>Anpi</h1>
+</div>
+  <p>Bienvenido</p>
+      `,
   styleUrl: './nav-bar.component.css'
 })
 export class NavBarComponent {
